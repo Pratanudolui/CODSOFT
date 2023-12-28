@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    background:#efeff2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.cals{
+    width:300px;
+    height:500px;
+    box-shadow:6px 6px 32px rgb(105, 104, 110);
+    border-radius:12px;
+    background:#2b2b3a;
+    overflow: hidden;
+}
+from input{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 5px;
+   width:90%;
+   height:100px;
+   border:NINE;
+   border-radius:12px; 
+   font-size:2rem;
+   padding:1rem;
+   color:#ded4d4;
+   background:#18560c;
+   text-align:right;
+   pointer-events:none;
+}
+.buttons{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-between;
+ padding:20px;
+}
+button{
+    flex:0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000;
+    width:60px;
+    height:52px;
+    font-size:22px;
+    font-weight:600;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.btn-clear {
+    margin-right: 60px;
+background:rgb(231, 16, 9);
+}
+.btn-clear:hover {background-color: #591507}
+.btn-clear:active {
+    background-color: #e4570b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.btn-delete1 {
+    background:rgb(231, 16, 9);
+    }
+    .btn-delete1:hover {background-color: #591507}
+.btn-delete1:active {
+    background-color: #e4570b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.btn-yellow {
+    background:rgba(235, 161, 2, 0.995);
+    color:#fff;
+}
+.btn-yellow:hover {background-color: #5d3504}
+.btn-yellow:active {
+    background-color: #e4570b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.btn-grey {
+    background:rgb(192, 196, 192);
+}
+.btn-grey:hover {background-color: #3d3f3d}
+.btn-grey:active {
+    background-color: #e4570b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.btn-equal{
+    width:60px;
+    height:52px;
+    background:rgb(35, 240, 12);
+}
+.btn-equal:hover {background-color: #3e8e41}
+.btn-equal:active {
+    background-color: #e4570b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+body {
+  background-image: url('https://i.gifer.com/Cwgf.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
